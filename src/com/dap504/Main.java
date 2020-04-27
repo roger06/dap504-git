@@ -26,7 +26,8 @@ public class Main {
         players.add(new Player("Hadley", "Holden", 21));
 
         for (Player theplayer: players ) {
-            System.out.println(theplayer.getFirstName());
+            System.out.print(theplayer.getFirstName() + " ");
+            System.out.println(theplayer.getLastName());
         }
 
 //        for (Player theplayer : players) {
